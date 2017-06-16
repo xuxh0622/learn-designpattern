@@ -1,9 +1,0 @@
-package com.pattern.intro.afactory;
-
-public class OperationFactory {
-	public static Operation createOperate(String operate){
-		switch(operate){
-		
-		}
-	}
-}
