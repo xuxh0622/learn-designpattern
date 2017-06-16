@@ -1,0 +1,11 @@
+package com.pattern.intro.afactory;
+
+public class OperationFactory {
+	public static Operation createOperate(char operate){
+		Operation oper = null;
+		switch(operate){
+		case '+':
+			
+		}
+	}
+}

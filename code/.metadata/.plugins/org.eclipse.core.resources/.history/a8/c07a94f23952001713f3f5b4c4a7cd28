@@ -1,0 +1,10 @@
+package com.pattern.intro.afactory;
+
+public class OperationAdd extends Operation{
+
+	@Override
+	public double getResult() {
+		return 0;
+	}
+
+}

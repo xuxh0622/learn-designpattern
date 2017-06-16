@@ -1,0 +1,5 @@
+package com.pattern.intro.afactory;
+
+public class OperationAdd extends Operation{
+
+}
