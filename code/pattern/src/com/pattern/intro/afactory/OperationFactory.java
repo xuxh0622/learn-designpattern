@@ -18,10 +18,4 @@ public class OperationFactory {
 		return oper;
 	}
 	
-	public static void main(String[] args) {
-		Operation oper = OperationFactory.createOperate('+');
-		oper.setNumberA(10);
-		oper.setNumberB(20);
-		System.out.println(oper.getResult());
-	}
 }
