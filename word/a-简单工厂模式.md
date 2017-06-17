@@ -25,6 +25,27 @@ public class PenguinAggregate {
 
 ## 简单工厂模式
 
-
-
 ![依赖dependency](https://github.com/xuxh0622/learn-designpattern/blob/master/image/afactory.png)
+
+```java
+/**
+ * 简单工厂方法获取操作对象
+ * @author xuxhm
+ *
+ */
+public class OperationFactory {
+	public static Operation createOperate(char operate){
+		Operation oper = null;
+		switch(operate){
+		case '+':
+			oper = new OperationAdd();
+			break;
+		case '-':
+			oper = new OperationSub();
+			break;
+		}
+		return oper;
+	}
+}
+```
+
