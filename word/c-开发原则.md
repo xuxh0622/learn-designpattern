@@ -8,4 +8,6 @@
 
 **里氏代换原则**：子类必须能够替换父类型。
 
+**迪米特法则**：如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用。
+
 ![开发原则](https://github.com/xuxh0622/learn-designpattern/blob/master/image/cprinciple.png)
