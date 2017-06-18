@@ -1,12 +1,11 @@
-装饰模式：动态地给一个对象添加一些额外的职责，就增强功能来说，装饰模式比生成子类更为灵活。
+**定义**：动态地给一个对象添加一些额外的职责，就增强功能来说，装饰模式比生成子类更为灵活。
 
-![装饰模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/ddecorator.png)
+**实例**：component（小鸟）要见女朋友，需要搭配衣服，ConcreteDecoratorA（选择衣服）、ConcreteDecoratorB（搭配裤子），等component调用operation方法，会执行这几个类的方法，进行装饰。
 
 ```java
 /**
  * 装饰类
  * @author xuxhm
- *
  */
 public class Decorator extends Component{
 	protected Component component;
@@ -32,6 +31,6 @@ public static void main(String[] args) {
 		c.setComponent(b);
 		c.operation();
 	}
-
 ```
 
+![装饰模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/ddecorator.png)

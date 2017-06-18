@@ -1,11 +1,10 @@
-代理模式：为其他对象提供一种代理以控制这个对象的访问。
+## 代理模式
 
-实例：Pursuit（追求者）通过Proxy（代理）给SchoolGirl（被追求者）送礼物。
+**定义**：为其他对象提供一种代理以控制这个对象的访问。
 
-![代理模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/dproxy.png)
+**实例**：Pursuit（追求者）通过Proxy（代理）给SchoolGirl（被追求者）送礼物。
 
 ```java
-package com.pattern.intro.eproxy;
 /**
  * 代理
  * @author xuxhm
@@ -42,3 +41,4 @@ public class Test {
 }
 ```
 
+![代理模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/dproxy.png)

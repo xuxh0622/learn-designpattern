@@ -1,7 +1,5 @@
 ## UML图
 
-![依赖dependency](https://github.com/xuxh0622/learn-designpattern/blob/master/image/auml.png)
-
 ```java
 //继承类Animal：is-a动物
 //实现IFly：实现其中方法
@@ -23,9 +21,9 @@ public class PenguinAggregate {
 }
 ```
 
-## 简单工厂模式
+![依赖dependency](https://github.com/xuxh0622/learn-designpattern/blob/master/image/auml.png)
 
-![依赖dependency](https://github.com/xuxh0622/learn-designpattern/blob/master/image/afactory.png)
+## 简单工厂模式
 
 ```java
 /**
@@ -49,3 +47,4 @@ public class OperationFactory {
 }
 ```
 
+![依赖dependency](https://github.com/xuxh0622/learn-designpattern/blob/master/image/afactory.png)
