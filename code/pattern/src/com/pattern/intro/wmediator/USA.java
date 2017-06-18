@@ -1,4 +1,4 @@
-package com.pattern.intro.wmediator.ba;
+package com.pattern.intro.wmediator;
 //城市具体实现类，类似Conce热特Colleague1
 public class USA extends Country{
 

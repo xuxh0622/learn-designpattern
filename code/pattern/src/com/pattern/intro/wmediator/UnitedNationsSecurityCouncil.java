@@ -1,4 +1,4 @@
-package com.pattern.intro.wmediator.ba;
+package com.pattern.intro.wmediator;
 //联合国安全理事会，类似ConcreteCountry
 public class UnitedNationsSecurityCouncil extends UnitedNations{
 	private USA colleague1;

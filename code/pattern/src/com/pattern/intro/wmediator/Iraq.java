@@ -1,4 +1,4 @@
-package com.pattern.intro.wmediator.ba;
+package com.pattern.intro.wmediator;
 //伊拉克城市具体实现类，类似Conce热特Colleague2
 public class Iraq extends Country{
 

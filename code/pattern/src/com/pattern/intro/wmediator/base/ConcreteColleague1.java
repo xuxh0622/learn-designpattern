@@ -1,4 +1,4 @@
-package com.pattern.intro.wmediator;
+package com.pattern.intro.wmediator.base;
 
 public class ConcreteColleague1 extends Colleague{
 

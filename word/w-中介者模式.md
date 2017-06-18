@@ -65,4 +65,4 @@ public class Test {
 
 ![命令模式结构图](https://github.com/xuxh0622/learn-designpattern/blob/master/image/wmediator.png)
 
-![命令模式结构图](https://github.com/xuxh0622/learn-designpattern/blob/master/image/wasemediator.png)
+![命令模式结构图](https://github.com/xuxh0622/learn-designpattern/blob/master/image/wbasemediator.png)
