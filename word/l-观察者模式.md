@@ -46,7 +46,11 @@ public class Test {
 }
 ```
 
+**当前实例结构图**
+
 ![观察者实例模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/lobserver.png)
+
+**观察者模式结构图**
 
 ![观察者基本模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/lbaseobserver.png)
 

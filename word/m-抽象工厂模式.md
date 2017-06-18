@@ -37,6 +37,10 @@ public class Test {
 }
 ```
 
+**当前实例结构图**
+
 ![抽象工厂举例模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/mfactory.png)
+
+**抽象工厂模式结构图**
 
 ![抽象工厂基本模式](https://github.com/xuxh0622/learn-designpattern/blob/master/image/mbasefactory.png)
