@@ -2,7 +2,7 @@ package com.pattern.intro.zvisitor;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//访问结构
 public class ObjectStructure {
 	private List<Person> elements = new ArrayList<Person>();
 	

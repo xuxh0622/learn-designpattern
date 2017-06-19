@@ -1,5 +1,5 @@
 package com.pattern.intro.zvisitor;
-
+//测试
 public class Test {
 	public static void main(String[] args) {
 		ObjectStructure o = new ObjectStructure();
