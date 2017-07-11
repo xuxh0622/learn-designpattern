@@ -24,6 +24,32 @@ public class Singleton {
 		return instance;
 	}
 }
+```
 
+##### spring
+
+> spring采用单例模式，访问高效
+
+```java
+protected Object getSingleton(String beanName, boolean allowEarlyReference) {
+  		//从缓存中获取对象
+        Object singletonObject = this.singletonObjects.get(beanName);
+        if (singletonObject == null && isSingletonCurrentlyInCreation(beanName)) {
+          	//对缓存加锁
+            synchronized (this.singletonObjects) {
+                singletonObject = this.earlySingletonObjects.get(beanName);
+                //防止加锁当时有进程为对象赋值
+                if (singletonObject == null && allowEarlyReference) {
+                    ObjectFactory<?> singletonFactory = this.singletonFactories.get(beanName);
+                    if (singletonFactory != null) {
+                        singletonObject = singletonFactory.getObject();
+                        this.earlySingletonObjects.put(beanName, singletonObject);
+                        this.singletonFactories.remove(beanName);
+                    }
+                }
+            }
+        }
+        return (singletonObject != NULL_OBJECT ? singletonObject : null);
+    }
 ```
 
